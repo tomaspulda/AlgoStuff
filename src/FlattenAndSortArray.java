@@ -7,6 +7,7 @@ public class FlattenAndSortArray {
     if (array.length == 0 ) {
       return new int[]{};
     }
+
     StringBuilder sb = new StringBuilder();
 
     for (int[] i : array) {
@@ -30,6 +31,7 @@ public class FlattenAndSortArray {
   public static void main(String[] args) {
     for (int i :flattenAndSort(new int[][]{{3, 2, 1}, {4, 6, 5}, {}, {9, 7, 8}})) {
       System.out.println(i);
+
     }
 
    /* for (int i :flattenAndSort(new int[][]{})) {
