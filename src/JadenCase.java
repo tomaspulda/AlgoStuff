@@ -1,8 +1,8 @@
 public class JadenCase {
 
-  public static String toUpperCase(String str) {
+  public static String toUpperCase(String str){
 
-    char[] ar = str.toCharArray();
+       char[] ar = str.toCharArray();
 
     for (int i = 0; i < ar.length; i++) {
       if (i == 0 || ar[i - 1] == ' ') {
